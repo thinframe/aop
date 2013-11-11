@@ -1,0 +1,28 @@
+{
+    "name": "thinframe/aop",
+    "type": "library",
+    "homepage": "http://thinframe.net",
+    "description": "It is a AOP extension for Symfony2 Dependency Injection Container",
+    "keywords": ["thinframe", "aop", "dependency injection"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sorin Badea",
+            "email": "sorin.badea91@gmail.com",
+            "homepage": "http://sorinbadea.me",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "thinframe/foundation": "dev-master",
+        "thinframe/events": "dev-master",
+        "jms/cg": "dev-master#0d8d8c7e964e0ee1b5743f23117a541873d9bfef"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
